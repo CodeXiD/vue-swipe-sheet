@@ -1,0 +1,51 @@
+{
+  "name": "vue-swipe-sheet",
+  "description": "Vue3 bottom swipe sheet",
+  "author": "Tkachenko Kirill <tkachenko.kirill.dev@gmail.com>",
+  "version": "0.0.1",
+  "type": "module",
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vue3",
+    "swipe",
+    "swipeable",
+    "sheet",
+    "bottom",
+    "vue-swipe",
+    "vue-sheet",
+    "vue-bottom",
+    "modal",
+    "popup"
+  ],
+  "main": "./dist/vue-swipe-sheet.js",
+  "module": "./dist/vue-swipe-sheet.umd.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-swipe-sheet.js",
+      "require": "./dist/vue-swipe-sheet.umd.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vue-tsc --declaration --emitDeclarationOnly -p tsconfig.json",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.11.0",
+    "eslint-plugin-vue": "^9.27.0",
+    "hammerjs": "^2.0.8",
+    "vite-plugin-dts": "^4.0.0-beta.1",
+    "vue": "^3.4.31",
+    "vue-swipe-sheet": "file:../vue-swipe-sheet"
+  },
+  "devDependencies": {
+    "@types/hammerjs": "^2.0.45",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "vue-tsc": "^2.0.24"
+  }
+}
