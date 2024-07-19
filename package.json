@@ -2,8 +2,10 @@
   "name": "vue-swipe-sheet",
   "description": "Vue3 bottom swipe sheet",
   "author": "Tkachenko Kirill <tkachenko.kirill.dev@gmail.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
+  "files": ["dist"],
+  "license": "MIT",
   "keywords": [
     "vue",
     "vuejs",
@@ -18,6 +20,10 @@
     "modal",
     "popup"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodeXiD/vue-swipe-sheet.git"
+  },
   "main": "./dist/vue-swipe-sheet.js",
   "module": "./dist/vue-swipe-sheet.umd.js",
   "exports": {
