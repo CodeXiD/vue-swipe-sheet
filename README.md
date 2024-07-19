@@ -5,6 +5,13 @@ Vue3 bottom swipe sheet
     <img src="https://github.com/CodeXiD/vue-swipe-sheet/raw/main/resources/header.png" width="500">
 </p>
 
+<p align="center">
+    <img src="https://img.shields.io/github/license/codexid/vue-swipe-sheet?style=flat-square" />
+    <img alt="npm" src="https://img.shields.io/npm/dm/vue-swipe-sheet?style=flat-square">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/codexid/vue-swipe-sheet?style=flat-square">
+    <img alt="npm" src="https://img.shields.io/npm/v/vue-swipe-sheet?style=flat-square">
+</p>
+
 ## 📦 Installation
 ### yarn
 `yarn add vue-swipe-sheet`
