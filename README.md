@@ -12,6 +12,9 @@ Vue3 bottom swipe sheet
     <img alt="npm" src="https://img.shields.io/npm/v/vue-swipe-sheet?style=flat-square">
 </p>
 
+## 🤝 Demo
+[👉 Demo here](https://stackblitz.com/edit/vue-swipe-sheet-demo?file=src%2FApp.vue)
+
 ## 📦 Installation
 ### yarn
 `yarn add vue-swipe-sheet`

@@ -2,7 +2,7 @@
   "name": "vue-swipe-sheet",
   "description": "Vue3 bottom swipe sheet",
   "author": "Tkachenko Kirill <tkachenko.kirill.dev@gmail.com>",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "files": ["dist"],
   "license": "MIT",
