@@ -11,7 +11,7 @@
         :class="{ moving: isMoving, 'with-backdrop': withBackdrop }"
         :style="{
           '--headerHeight':  headerRef?.clientHeight+'px',
-          '--offsetTop': (positionY === 0 || positionY > 0 ? positionY : windowHeight)+'px',
+          '--offsetTop': (isReady && (positionY === 0 || positionY > 0) ? positionY : windowHeight)+'px',
           '--zIndex': zIndex + 1
         }"
     >
@@ -89,6 +89,7 @@ const headerHammerManager = ref<HammerManager | null>(null)
 
 // moving
 const startMovePositionY = ref(0)
+const isReady = ref(false)
 const positionY = ref(0)
 const isMoving = ref(false)
 
@@ -141,6 +142,7 @@ onMounted(() => {
   if(props.isLockScroll) setPageScrollable('hidden')
 
   setSnapPoint(props.startSnapPoint)
+  set(isReady, true);
 
   set(headerHammerManager, new Hammer(get(headerRef)));
 
